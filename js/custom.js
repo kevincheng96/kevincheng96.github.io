@@ -44,7 +44,7 @@ $(function() {
     })
 }) //NEED TO MAKE IT FADEOUT
 
-// navbar fade in and out 
+// navbar fade in and out
 $(function() {
     $(window).scroll({previousTop: 0}, function() {
         var currentTop = $(window).scrollTop();

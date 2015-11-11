@@ -11,13 +11,24 @@ body {
 
 @media (min-width: 768px) {
     body {
-        margin-top: -90px;
+        margin-top: -70px;
     }
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: auto;
+    margin-top: 20px;
+    padding: 0;
+    width: 30%;
 }
 
 p {
     font-size: 20px;
-    font-family: "Helvetica Neue"
+    font-family: "Lato",sans-serif,"Helvetica Neue";
 }
 
 p.small {
@@ -39,9 +50,8 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: "Raleway","Lato",sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
 }
 
 hr.star-light,
@@ -105,14 +115,13 @@ header img {
 
 header .intro-text {
     color: white;
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato",sans-serif,"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 header .intro-text .skills {
@@ -137,7 +146,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 10px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -152,7 +161,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
+        padding: 0px 0;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
@@ -161,8 +170,7 @@ header .intro-text .skills {
 }
 
 .navbar {
-    text-transform: uppercase;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Raleway","Lato",sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
 }
 
@@ -181,6 +189,18 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+}
+
+@media (min-width: 768px) {
+
+    .navbar-nav {
+        margin: 9.75px -15px;
+    }
+    .navbar-nav > li > a {
+        padding-top: 7px;
+        padding-bottom: 7px;
+        line-height: 25px;
+    }
 }
 
 section {
@@ -217,7 +237,11 @@ section.success a.active {
 }
 
 #about-me {
-    color: #2E373F;
+    color: black;
+}
+
+#about-me hr {
+    border-top: 2px solid black;
 }
 
 #portfolio {
@@ -359,8 +383,13 @@ footer {
     color: #fff;
 }
 
-footer h3 {
+footer h2 {
     margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 1.5em;
+    font-weight: 400;
 }
 
 footer .footer-above {
