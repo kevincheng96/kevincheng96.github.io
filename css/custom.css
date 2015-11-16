@@ -21,7 +21,8 @@ hr {
     border: 0;
     border-top: 2px solid #ccc;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: -5px;
     padding: 0;
     width: 30%;
 }
@@ -253,6 +254,27 @@ section.success a.active {
     margin: 0 0 15px;
 }
 
+#portfolio h4 {
+    text-align: center;
+}
+
+#portfolio #languages {
+    margin-bottom: 30px;
+}
+
+#portfolio #languages hr {
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+#portfolio #languages ul {
+    list-style-type: none;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-left: -35px;
+}
+
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
@@ -271,9 +293,9 @@ section.success a.active {
     transition: all ease .5s;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+/* #portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
-}
+} */
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
@@ -516,6 +538,10 @@ footer .footer-below {
         float: left;
         margin-left: 0px;
     }
+}
+
+.wow {
+    visibility: hidden;
 }
 
 /*
