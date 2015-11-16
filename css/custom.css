@@ -254,12 +254,13 @@ section.success a.active {
     margin: 0 0 15px;
 }
 
-#portfolio h4 {
-    text-align: center;
-}
-
 #portfolio #languages {
     margin-bottom: 30px;
+}
+
+#portfolio #languages h4 {
+    font-size: 1.5em;
+    font-weight: 550;
 }
 
 #portfolio #languages hr {

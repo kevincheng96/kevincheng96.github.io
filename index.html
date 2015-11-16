@@ -19,8 +19,7 @@
     <!-- header fade in -->
     <script type="text/javascript">
     $(document).ready(function(){
-        $('#fade-in-1, #fade-in-2, #fade-in-3, .fade-in-skills, .page-fade-in').animate({opacity: 0}, 0);
-        $('#fade-in-1, #fade-in-2, #fade-in-3').delay(0).addClass('animated fadeInDown'); <!-- 2700, 3000 -->
+        $('.fade-in-skills, .page-fade-in').animate({opacity: 0}, 0);
         $('.fade-in-skills').delay(650).each(function(i){
             $(this).delay(i*600).animate({opacity: 1}, 2500);
         })
@@ -33,7 +32,7 @@
         wow = new WOW( {
         boxClass:     'wow',
         animateClass: 'animated',
-        offset:       150
+        offset:       100
         }
     );
     wow.init();
@@ -122,10 +121,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img id="fade-in-1" class="img-responsive" src="img/profile1.png" alt="">
+                    <img class="img-responsive wow fadeInDown" src="img/profile1.png" alt="">
                     <div class="intro-text">
-                        <span id="fade-in-2" class="name">Kevin Cheng</span>
-                        <hr id = "fade-in-3" class="star-light">
+                        <span class="name wow fadeInDown">Kevin Cheng</span>
+                        <hr class="star-light wow fadeInDown">
                         <span class="fade-in-skills skills">App Developer </span>
                         <span class="fade-in-skills skills">- Web Developer </span>
                         <span class="fade-in-skills skills">- Tech Enthusiast</span>
@@ -147,7 +146,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <p><i>Born in Florida, originating from Taiwan, raised in Shanghai.</i></p>
+                    <p><i>Born in Florida, originated from Taiwan, raised in Shanghai.</i></p>
                     <p>I am a student studying Computer Science and Economics at Northwestern University, seeking to expand my computer science knowledge. In programming, I bring a familiarity with OOP, along with knowledge in iOS app development and web development. Over time, I hope to broaden my scope through work experience and more personal projects.</p>
                     <p>Outside of coding, my hobbies include playing basketball, boxing, working out, playing with my pet dog, and watching all sorts of videos on YouTube.</p>
                 </div>
@@ -190,10 +189,10 @@
                             <h4>Other Skills</h4>
                             <hr></hr>
                             <ul>
-                                <li>Adobe Photoshop</li>
+                                <li>Unix shell</li>
                                 <li>MongoDB (Mongolabs)</li>
-                                <li>Unix</li>
                                 <li>Assembly language</li>
+                                <li>Adobe Photoshop</li>
                             </ul>
                         </div>
                     </div>
@@ -208,7 +207,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 portfolio-item hvr-grow-rotate wow zoomIn">
+                <div class="col-sm-6 portfolio-item hvr-grow-rotate wow slideInUp">
                     <a href="#portfolioModal1" data-keyboard="true" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -218,7 +217,7 @@
                         <img src="img/portfolio/rain%20rain%20go%20away.png" class="img-responsive" alt="Rain Rain Go Away!">
                     </a>
                 </div>
-                <div class="col-sm-6 portfolio-item hvr-grow-rotate wow zoomIn">
+                <div class="col-sm-6 portfolio-item hvr-grow-rotate wow slideInUp">
                     <a href="#portfolioModal2" data-keyboard="true" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -228,7 +227,7 @@
                         <img src="img/portfolio/coco's adventure.png" class="img-responsive" alt="Coco's Adventure">
                     </a>
                 </div>
-                <div class="col-sm-6 portfolio-item hvr-grow-rotate wow zoomIn">
+                <div class="col-sm-6 portfolio-item hvr-grow-rotate wow slideInUp">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -238,7 +237,7 @@
                         <img src="img/portfolio/workinprogress.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-6 portfolio-item hvr-grow-rotate wow zoomIn">
+                <div class="col-sm-6 portfolio-item hvr-grow-rotate wow slideInUp">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
