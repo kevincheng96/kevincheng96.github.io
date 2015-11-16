@@ -498,10 +498,10 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content img {
-    margin-bottom: 30px;
     max-width: 90%;
     max-height: 90%;
     margin: auto;
+    margin-bottom: 30px;
 }
 
 .portfolio-modal .modal-content p {
