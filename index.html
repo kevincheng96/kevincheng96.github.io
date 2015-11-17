@@ -16,7 +16,7 @@
     <!-- jQuery -->
     <script type="text/javascript" src="js/jquery.js"></script>
 
-    <!-- header fade in -->
+    <!-- header fade in (NEED TO FIX AND OPTIMIZE TO PREVENT SCREEN LAG ON STARTUP) --> 
     <script type="text/javascript">
     $(document).ready(function(){
         $('.fade-in-skills, .page-fade-in').animate({opacity: 0}, 0);
@@ -151,7 +151,7 @@
                     <p>Outside of coding, my hobbies include playing basketball, boxing, working out, playing with my pet dog, and watching all sorts of videos on YouTube.</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="./downloads/resume.pdf" class="btn btn-lg btn-outline" download="Resume">
+                    <a href="./downloads/resume.pdf" class="btn btn-lg btn-outline hvr-buzz" download="Resume">
                         <i class="fa fa-download"></i> Download Resume
                     </a>
                 </div>
@@ -192,6 +192,8 @@
                                 <li>Unix shell</li>
                                 <li>MongoDB (Mongolabs)</li>
                                 <li>Assembly language</li>
+                                <li>Git</li>
+                                <li>Express.js</li>
                                 <li>Adobe Photoshop</li>
                             </ul>
                         </div>
@@ -304,9 +306,8 @@
                         <div class="modal-body">
                             <h2>Rain Rain Go Away!</h2>
                             <br></br>
-                            <img src="img/portfolio/rain%20rain%20go%20away.png" class="img-responsive img-centered hvr-grow" alt="Rain Rain Go Away!">
+                            <a href="https://github.com/kevincheng96/Rain-Rain-Go-Away-" target="_blank"><img src="img/portfolio/rain%20rain%20go%20away.png" class="img-responsive img-centered hvr-grow" alt="Rain Rain Go Away!"></a>
                             <p>A convenient weather notification app I developed to teach myself Swift and iOS app development. The app will send a local notification to the user's phone if it is going to rain in the coming hours. Through this project, I learned to use location services, local notifications, API data retrieval, data parsing, and XCode's UI development.</p>
-                            <a href=""><p>Source Code<p></a>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -322,9 +323,8 @@
                         <div class="modal-body">
                             <h2>Coco's Adventure</h2>
                             <br></br>
-                            <img src="img/portfolio/coco's adventure.png" class="img-responsive img-centered hvr-grow" alt="Coco's Adventure">
+                            <a href="https://github.com/kevincheng96/Coco-s-Adventure" target="_blank"><img src="img/portfolio/coco's adventure.png" class="img-responsive img-centered hvr-grow" alt="Coco's Adventure"></a>
                             <p>A small and simple game I made using Swift in Xcode. The objective is to jump over the moving beanbags using my pet dog Coco. I used Swift's SpriteKit graphics rendering and physics engine to create this game.</p>
-                            <a href=""><p>Source Code<p></a>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -340,7 +340,7 @@
                         <div class="modal-body">
                             <h2>Future Project</h2>
                             <br></br>
-                            <img src="img/portfolio/workinprogress.png" class="img-responsive img-centered hvr-grow" alt="">
+                            <a href="img/portfolio/workinprogress.png" target="_blank"><img src="img/portfolio/workinprogress.png" class="img-responsive img-centered hvr-grow" alt=""></a>
                             <p>Description</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -371,7 +371,7 @@
                         <div class="modal-body">
                             <h2>Future Project</h2>
                             <br></br>
-                            <img src="img/portfolio/workinprogress.png" class="img-responsive img-centered hvr-grow" alt="">
+                            <a href="img/portfolio/workinprogress.png" target="_blank"><img src="img/portfolio/workinprogress.png" class="img-responsive img-centered hvr-grow" alt=""></a>
                             <p>Description</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
