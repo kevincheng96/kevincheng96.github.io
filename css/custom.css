@@ -27,6 +27,13 @@ hr {
     width: 30%;
 }
 
+/* Used to mask the website initial load-up animation lag */
+.load-delay { 
+    -webkit-animation-delay: 0.75s;
+    -moz-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+}
+
 p {
     font-size: 20px;
     font-family: "Lato",sans-serif,"Helvetica Neue";
@@ -134,21 +141,21 @@ header .intro-text .skills {
 }
 
 #skill1 {
-    -webkit-animation-delay: 0.65s;
-    -moz-animation-delay: 0.65s;
-    animation-delay: 0.65s;
+    -webkit-animation-delay: 1.4s;
+    -moz-animation-delay: 1.4s;
+    animation-delay: 1.4s;
 }
 
 #skill2 {
-    -webkit-animation-delay: 1.25s;
-    -moz-animation-delay: 1.25s;
-    animation-delay: 1.25s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    animation-delay: 2s;
 }
 
 #skill3 {
-    -webkit-animation-delay: 1.85s;
-    -moz-animation-delay: 1.85s;
-    animation-delay: 1.85s;
+    -webkit-animation-delay: 2.6s;
+    -moz-animation-delay: 2.6s;
+    animation-delay: 2.6s;
 }
 
 @media(min-width:768px) {
