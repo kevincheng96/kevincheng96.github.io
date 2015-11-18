@@ -16,16 +16,6 @@
     <!-- jQuery -->
     <script type="text/javascript" src="js/jquery.js"></script>
 
-    <!-- header fade in (NEED TO FIX AND OPTIMIZE TO PREVENT SCREEN LAG ON STARTUP) --> 
-    <script type="text/javascript">
-    $(document).ready(function(){
-        $('.fade-in-skills, .page-fade-in').animate({opacity: 0}, 0);
-        $('.fade-in-skills').delay(650).each(function(i){
-            $(this).delay(i*600).animate({opacity: 1}, 2500);
-        })
-    })
-    </script>
-
     <!-- initiate WOW -->
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script>
@@ -125,9 +115,9 @@
                     <div class="intro-text">
                         <span class="name wow fadeInDown">Kevin Cheng</span>
                         <hr class="star-light wow fadeInDown">
-                        <span class="fade-in-skills skills">App Developer </span>
-                        <span class="fade-in-skills skills">- Web Developer </span>
-                        <span class="fade-in-skills skills">- Tech Enthusiast</span>
+                        <span class="skills wow fadeInLeft" id="skill1">App Developer </span>
+                        <span class="skills wow fadeInLeft" id="skill2">- Web Developer </span>
+                        <span class="skills wow fadeInLeft" id="skill3">- Tech Enthusiast</span>
                     </div>
                 </div>
             </div>
@@ -136,7 +126,7 @@
 
       <!-- about-me Section -->
     <section class="success" id="about-me">
-        <div class="container page-fade-in">
+        <div class="container wow fadeIn">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>About Me</h2>
@@ -162,7 +152,7 @@
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
         <div class="container">
-            <div class="row page-fade-in">
+            <div class="row wow fadeIn">
                 <div class="col-lg-12 text-center">
                     <h2>Skills</h2>
                     <hr></hr>
@@ -201,7 +191,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12 text-center page-fade-in">
+                <div class="col-lg-12 text-center wow fadeIn">
                     <h2>Portfolio</h2>
                     <hr></hr>
                     <br></br>

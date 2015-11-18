@@ -29,21 +29,6 @@ $(function() {
     })
 });
 
-// text fade in when scrolling effect
-$(function() {
-    $(window).scroll(function() {
-        $('.page-fade-in').each(function(i) {
-            var top_of_container = $(this).offset().top;
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            top_of_container += 50;
-            if(bottom_of_window > top_of_container)
-            {
-                $(this).delay(400).animate({opacity: 1}, 3000);
-            }
-        })
-    })
-}) //NEED TO MAKE IT FADEOUT
-
 // navbar fade in and out
 $(function() {
     $(window).scroll({previousTop: 0}, function() {

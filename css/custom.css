@@ -128,6 +128,27 @@ header .intro-text .name {
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    animation-duration: 3s;
+}
+
+#skill1 {
+    -webkit-animation-delay: 0.65s;
+    -moz-animation-delay: 0.65s;
+    animation-delay: 0.65s;
+}
+
+#skill2 {
+    -webkit-animation-delay: 1.25s;
+    -moz-animation-delay: 1.25s;
+    animation-delay: 1.25s;
+}
+
+#skill3 {
+    -webkit-animation-delay: 1.85s;
+    -moz-animation-delay: 1.85s;
+    animation-delay: 1.85s;
 }
 
 @media(min-width:768px) {
