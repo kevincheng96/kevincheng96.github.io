@@ -29,9 +29,9 @@ hr {
 
 /* Used to mask the website initial load-up animation lag */
 .load-delay { 
-    -webkit-animation-delay: 0.75s;
-    -moz-animation-delay: 0.75s;
-    animation-delay: 0.75s;
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    animation-delay: 0.5s;
 }
 
 p {
@@ -141,21 +141,21 @@ header .intro-text .skills {
 }
 
 #skill1 {
-    -webkit-animation-delay: 1.4s;
-    -moz-animation-delay: 1.4s;
-    animation-delay: 1.4s;
+    -webkit-animation-delay: 1.2s;
+    -moz-animation-delay: 1.2s;
+    animation-delay: 1.2s;
 }
 
 #skill2 {
-    -webkit-animation-delay: 2s;
-    -moz-animation-delay: 2s;
-    animation-delay: 2s;
+    -webkit-animation-delay: 1.8s;
+    -moz-animation-delay: 1.8s;
+    animation-delay: 1.8s;
 }
 
 #skill3 {
-    -webkit-animation-delay: 2.6s;
-    -moz-animation-delay: 2.6s;
-    animation-delay: 2.6s;
+    -webkit-animation-delay: 2.4s;
+    -moz-animation-delay: 2.4s;
+    animation-delay: 2.4s;
 }
 
 @media(min-width:768px) {
