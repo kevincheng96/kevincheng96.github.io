@@ -509,7 +509,7 @@ footer .footer-below {
     border-style: solid;
     border-width: 5px;
     border-color: white;
-    background-color: rgba(0,0,0,0.55);
+    background-color: rgba(0,0,0,0.8); /*opacity of modal*/
     color: white;
     text-align: center;
     background-clip: border-box;

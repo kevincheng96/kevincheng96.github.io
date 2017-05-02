@@ -113,10 +113,10 @@
                 <div class="col-lg-12">
                     <img class="load-delay img-responsive wow fadeInDown" src="img/profile1.png" alt="">
                     <div class="intro-text">
-                        <span class="load-delay name wow fadeInDown">Kevin Le-Hsiu Cheng</span>
+                        <span class="load-delay name wow fadeInDown">Kevin Cheng</span>
                         <hr class="load-delay star-light wow fadeInDown">
                         <span class="skills wow fadeInLeft" id="skill1">Web Developer </span>
-                        <span class="skills wow fadeInLeft" id="skill2">- Mobile Developer </span>
+                        <span class="skills wow fadeInLeft" id="skill2">- Personal Investor </span>
                         <span class="skills wow fadeInLeft" id="skill3">- Tech Enthusiast</span>
                     </div>
                 </div>
@@ -136,14 +136,33 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <p><i>Hi there!</i></p>
-                    <p>I am a Junior studying Computer Science and Economics, while pursing a Kellogg Certificate Program for Undergraduates in Managerial Analytics, at Northwestern University. I have experience in Agile software development, mobile development, web development, Chrome extensions development, and network programming. I am still looking for opportunities to further broaden and improve upon my skillset. </p>
-                    <p>Outside of coding, my hobbies include investing in stocks, playing basketball, exploring new restaurants, and playing with my dog.</p>
+                    <p><i>Undergrad studying Computer Science and Economics and pursuing the Kellogg Certificate in Managerial Analytics at Northwestern University.</i></p>
+                    <div class="text-center">
+                        <p><b><u>Main interests</u></b></p>
+                    </div>
+                    <!-- <p>My hobbies include investing in stocks, playing basketball, boxing, working out, playing with my pet dog, exploring new restaurants, and watching movies.</p> -->
                 </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="./downloads/resume.pdf" class="btn btn-lg btn-outline hvr-buzz" download="Resume">
-                        <i class="fa fa-download"></i> Download Resume
-                    </a>
+                <div class="col-sm-6 col-lg-offset-2 text-left">
+                    <div class="text-center">
+                        <p><b>Investments</b></p>
+                    </div>
+                    <p>I am passionate about following the equities market and am constantly looking for worthwhile investments. During my free time, I like to experiment with value investing (through DCF analysis and Multiples approach) and algorithmic trading (statistical arbitrage).</p>
+                    <div class="text-center">
+                        <a href="./downloads/finance_resume.pdf" class="btn btn-lg btn-outline hvr-buzz" download="Resume">
+                            <i class="fa fa-download"></i> Finance Resume
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-offset-2 text-left">
+                    <div class="text-center">
+                        <p><b>Coding</b></p>
+                    </div>
+                    <p>In terms of programming, I have experience in agile software development, mobile development, web development, Chrome extensions, and network programming. I love to learn new languages and frameworks by working on personal projects during my free time.</p>
+                    <div class="text-center">
+                        <a href="./downloads/coding_resume.pdf" class="btn btn-lg btn-outline hvr-buzz" download="Resume">
+                            <i class="fa fa-download"></i> Coding Resume
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -168,9 +187,10 @@
                                 <li>C++</li>
                                 <li>Swift</li>
                                 <li>HTML/CSS</li>
-                                <li>Javascript (Angular.js, Express.js)</li>
-                                <li>C#</li>
+                                <li>Javascript (Vanilla, Angular.js)</li>
                                 <li>Java</li>
+                                <li>C#</li>
+                                <li>Racket</li>
                             </ul>
                         </div>
                     </div>
@@ -187,7 +207,7 @@
                                 <li>Assembly language</li>
                                 <li>Git</li>
                                 <li>Node.js</li>
-                                <li>InfluxDB</li>
+                                <li>Express.js</li>
                                 <li>Adobe Photoshop</li>
                             </ul>
                         </div>
@@ -211,6 +231,16 @@
                             </div>
                         </div>
                         <img src="img/portfolio/rain%20rain%20go%20away.png" class="img-responsive" alt="Rain Rain Go Away!">
+                    </a>
+                </div>
+                <div class="col-sm-6 portfolio-item hvr-grow-rotate wow slideInUp">
+                    <a href="#portfolioModal7" data-keyboard="true" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pairtrading.png" class="img-responsive" alt="Rain Rain Go Away!">
                     </a>
                 </div>
                 <div class="col-sm-6 portfolio-item hvr-grow-rotate wow slideInUp">
@@ -434,6 +464,23 @@
                             <br></br>
                             <a href="https://github.com/kevincheng96/Coco-s-Adventure" target="_blank"><img src="img/portfolio/coco's adventure.png" class="img-responsive img-centered hvr-grow" alt="Coco's Adventure"></a>
                             <p>A small and simple game I made using Swift in Xcode. The objective is to jump over the moving beanbags using my pet dog Coco. I used Swift's SpriteKit graphics rendering and physics engine to create this game.</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <div class="modal-body">
+                            <h2>Statistical Arbitrage Simulator</h2>
+                            <br></br>
+                            <a href="https://github.com/kevincheng96/relative-arbitrage" target="_blank"><img src="img/portfolio/pairtrading.png" class="img-responsive img-centered hvr-grow" alt="Coco's Adventure"></a>
+                            <p>A statistical arbitrage simulator written in Python (using pandas, scipy, statsmodels). The script looks for cointegrated stocks and will see how profitable pair trading between two cointegrated stocks are based on their historical prices. </p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
