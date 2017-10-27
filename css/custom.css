@@ -27,6 +27,12 @@ hr {
     width: 30%;
 }
 
+#resume-button {
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
 /* Used to mask the website initial load-up animation lag */
 .load-delay { 
     -webkit-animation-delay: 0.5s;
